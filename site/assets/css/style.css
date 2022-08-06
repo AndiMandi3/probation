@@ -1,0 +1,282 @@
+html {
+    font-family: 'Roboto';
+}
+
+#trapecia_up {
+    width: 603px;
+    height: 16px;
+    border-radius: 11px;
+    margin: 0 auto;
+    background: white;
+    position: relative;
+    top: 10px;
+}
+
+#trapecia_down {
+    width: 603px;
+    height: 16px;
+    border-radius: 11px;
+    margin: 0 auto;
+    background: white;
+    position: relative;
+    bottom: 10px;
+}
+
+.frame1 {
+    background-color: #3428D5;
+    background-image: url(/assets/img/bck.png);
+    height: 1036px;
+}
+
+.h1custom {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.pcustom_underh1 {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 0 19rem;
+    text-align: center;
+}
+
+.circle_fig {
+    width: 400px;
+    margin: 0 auto;
+    height: 700px;
+}
+
+.robot {
+    position: relative;
+    bottom: 340px;
+    right: 50px;   
+}
+
+.point1, .point2, .point3, .point4 {
+    display: block;
+    width: 35px;
+}
+
+/* точки сверху */
+.point1 {
+    position: relative;
+}
+
+.point1::before {
+    display: block;
+    content: url(/assets/img/point.svg);
+    position: relative;
+    left: 71px;
+    top: 55px;
+    height: 21px;
+
+}
+
+.point1::after{
+    display: block;
+    content: url(/assets/img/point.svg);
+    position: relative;
+    left: 238px;
+    top: 25px;
+    height: 21px;
+}
+
+/* верхние линии */
+.line1 {
+    position: relative;
+}
+
+.line1::before {
+    display: block;
+    content: url(/assets/img/Line_up.svg);
+    position: relative;
+    right: 280px;
+    top: 55px;
+    height: 15px;
+}
+
+.line1::after {
+    display: block;
+    content: url(/assets/img/Line_up\(right\).svg);
+    position: relative;
+    top: 35px;
+    left: 250px;
+    height: 15px;
+}
+
+/* верхние линии */
+
+/* Нижние линии */
+.line2 {
+    position: relative;
+    bottom: 201px;
+}
+
+.line2::before {
+    display: block;
+    content: url(/assets/img/Line_down.svg);
+    position: relative;
+    bottom: 172px;
+    right: 288px;
+    height: 15px;
+}
+
+.line2::after {
+    display: block;
+    content: url(/assets/img/Line_down\(right\).svg);
+    position: relative;
+    left: 292px;
+    bottom: 191px;
+    height: 15px;
+}
+/* Нижние линии */
+
+/* Точки снизу */
+.point2 {
+    display: block;
+    position: relative;
+    bottom: 256px;
+}
+.point2::before {
+    display: block;
+    content: url(/assets/img/point.svg);
+    position: relative;
+    left: 45px;
+    bottom: 160px;
+    height: 21px;
+}
+
+.point2::after{
+    display: block;
+    content: url(/assets/img/point.svg);
+    position: relative;
+    left: 280px;
+    bottom: 185px;
+    height: 21px;
+}
+/* Точки снизу */
+
+/* Заголовки и текст */
+.left_side {
+    position: relative;
+    top: 142px;
+    right: 247px; 
+}
+.right_side {
+    position: relative;
+    top: 80px;
+    left: 350px; 
+}
+
+.left_side_down {
+    position: relative;
+    bottom: 434px;
+    right: 247px;
+}
+
+.right_side_down {
+    position: relative;
+    bottom: 500px;
+    left: 350px;
+}
+
+.h1custom_rob {
+    font-size: 26px;
+    color: white;
+    font-weight: bold;
+}
+
+.pcustom_rob {
+    font-size: 17px;
+    color: white;
+    font-weight: 500;
+    width: 272px;
+    height: 1px;
+}
+
+.blck-circle {
+    display: none;
+}
+
+/* Адаптив */
+
+@media (max-width: 1199px) {
+    .frame1 {
+        background-image: none;
+        height: 2000px;
+    }
+
+    .blck-circle {
+        display: block;
+    }
+
+    .circle_fig {
+        height: 360px;
+    }
+
+    .point1, .point2, .left_side, .left_side_down, .right_side, .right_side_down, .line1, .line2 {
+        display: none;
+    }
+
+    .pmobile {
+        width: 215px;
+    }
+
+    .textleft {
+        position: relative;
+        width: 211px;
+        bottom: 300px;
+        right: 100px;
+    }
+
+    .textright {
+        position: relative;
+        width: 211px;
+        bottom: 110px;
+        right: 15px;
+    }
+
+    .blck-circle {
+        width: 190px;
+        margin: 0 auto;
+    }
+    
+    .line11 {
+        position: relative;
+        bottom: 18px;
+    }
+    
+    .line11::before {
+        content: url(/assets/img/Line_short.svg);
+        position: relative;
+        bottom: 290px;
+    }
+    
+    .line11::after {
+        content: url(/assets/img/Line_long.svg);
+        position: relative;
+        left: 110px;
+    }
+
+    .line-center {
+        content: url(/assets/img/Line.svg);
+        position: relative;
+        bottom: 120px;
+    }
+
+    .line_down {
+        top: 60px;
+    }
+
+    .text_down1 {
+        bottom: 225px;
+    }
+
+    .text_down2 {
+        bottom: 20px;
+    }
+}
+
+/* Адаптив */
