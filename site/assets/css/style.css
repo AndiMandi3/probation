@@ -207,6 +207,9 @@ html {
         background-image: none;
         height: 2000px;
     }
+    .pcustom_underh1 {
+        padding: 0 14rem;
+    }
 
     .blck-circle {
         display: block;
@@ -280,3 +283,10 @@ html {
 }
 
 /* Адаптив */
+
+/* Правка надписи */
+@media (max-width: 991px) {
+    .pcustom_underh1 {
+        padding: 0 6rem;
+    }
+}
