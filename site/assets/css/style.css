@@ -24,7 +24,7 @@ html {
 
 .frame1 {
     background-color: #3428D5;
-    background-image: url(/assets/img/bck.png);
+    background-image: url(../img/bck.png);
     height: 1036px;
 }
 
@@ -66,7 +66,7 @@ html {
 
 .point1::before {
     display: block;
-    content: url(/assets/img/point.svg);
+    content: url(../img/point.svg);
     position: relative;
     left: 71px;
     top: 55px;
@@ -76,7 +76,7 @@ html {
 
 .point1::after{
     display: block;
-    content: url(/assets/img/point.svg);
+    content: url(../img/point.svg);
     position: relative;
     left: 238px;
     top: 25px;
@@ -90,7 +90,7 @@ html {
 
 .line1::before {
     display: block;
-    content: url(/assets/img/Line_up.svg);
+    content: url(../img/Line_up.svg);
     position: relative;
     right: 280px;
     top: 55px;
@@ -99,7 +99,7 @@ html {
 
 .line1::after {
     display: block;
-    content: url(/assets/img/Line_up\(right\).svg);
+    content: url(../img/Line_up\(right\).svg);
     position: relative;
     top: 35px;
     left: 250px;
@@ -116,7 +116,7 @@ html {
 
 .line2::before {
     display: block;
-    content: url(/assets/img/Line_down.svg);
+    content: url(../img/Line_down.svg);
     position: relative;
     bottom: 172px;
     right: 288px;
@@ -125,7 +125,7 @@ html {
 
 .line2::after {
     display: block;
-    content: url(/assets/img/Line_down\(right\).svg);
+    content: url(../img/Line_down\(right\).svg);
     position: relative;
     left: 292px;
     bottom: 191px;
@@ -141,7 +141,7 @@ html {
 }
 .point2::before {
     display: block;
-    content: url(/assets/img/point.svg);
+    content: url(../img/point.svg);
     position: relative;
     left: 45px;
     bottom: 160px;
@@ -150,7 +150,7 @@ html {
 
 .point2::after{
     display: block;
-    content: url(/assets/img/point.svg);
+    content: url(../img/point.svg);
     position: relative;
     left: 280px;
     bottom: 185px;
@@ -252,19 +252,19 @@ html {
     }
     
     .line11::before {
-        content: url(/assets/img/Line_short.svg);
+        content: url(../img/Line_short.svg);
         position: relative;
         bottom: 290px;
     }
     
     .line11::after {
-        content: url(/assets/img/Line_long.svg);
+        content: url(../img/Line_long.svg);
         position: relative;
         left: 110px;
     }
 
     .line-center {
-        content: url(/assets/img/Line.svg);
+        content: url(../img/Line.svg);
         position: relative;
         bottom: 120px;
     }
